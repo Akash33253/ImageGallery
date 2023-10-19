@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Philosopher&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Philosopher', sans-serif;
+}
+#banner{
+  height: 40vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#banner input{
+  width: 40vw;
+  margin-top: 30px;
+  text-align: center;
+}
+.card{
+  display: inline-block;
+}
+.card-columns{
+  column-count: 3;
+}
+.card-body{
+  align-items: center;
+  justify-content:space-between;
+}
+
+.profileImage1{
+    border-radius: 50px;
+    margin: 3px;
+    padding: 2px;
+}
+.sideLike{
+  display: flex;
+  flex-direction: row;
+}
+.likebutton{
+  height: 20px;
+  width: 20px;
+}
+.likes{
+  font-size: 12px;
+  padding: 2px;
+}
+.modalImage{
+  /* border: 2px solid black; */
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+}
+.modalImage img{
+  max-height: 80vh;
+}
+.modal-body{
+  flex-direction: row;
+}
+.imageDetails{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+.imageDetails img{
+  border-radius: 80px;
+  padding: 0px 5px;
+}
+
+.imageDetails ul{
+    list-style: none;
+}
+.modal-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+.searchBox{
+  align-items: baseline;
+  justify-content: center;
+}
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1px;
+}
+.box3{
+  margin: 11px 15px;
+  /* padding: 0px 1110px; */
+}
+.box3:checked{
+  background-color: black;
+  border: none;
+}
+@media only screen and (max-width: 430px) {
+  .card-columns{
+    column-count: 1;
+  }
+  .modalImage img{
+    max-height: 60vh;
+    max-width:  80vw;
+  }
+}
