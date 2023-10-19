@@ -9,10 +9,11 @@ import Spinner from './components/Spinner';
 
 function App() {
   const [items, setItems] = useState({});
-  const API_KEY = 'ofGSQtRU-FSG9B5grXeD8Jw9G1Y0gWoS3woKypPZZlQ';
+  const API_KEY = process.env.REACT_APP_API_KEY
   const [loading, setLoading] = useState(false);
   const [mode, setMode] = useState("dark");
   const [query, setQuery] = useState("general");
+  
   const toggleMode = () => {
     if (mode === 'dark') {
       setMode('light');
