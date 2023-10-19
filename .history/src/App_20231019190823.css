@@ -55,10 +55,7 @@ body{
   max-height: 80vh;
 }
 .modal-body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+  flex-direction: row;
 }
 .imageDetails{
   display: flex;
@@ -96,19 +93,6 @@ body{
 .box3:checked{
   background-color: black;
   border: none;
-}
-
-@media only screen and (max-width: 2560px) {
-  .modalImage img{
-    max-height: 40vh;
-    max-width:  60vw;
-  }
-}
-@media only screen and (max-width: 1440px) {
-  .modalImage img{
-    max-height: 60vh;
-    max-width:  80vw;
-  }
 }
 @media only screen and (max-width: 768px) {
   .modalImage img{

@@ -98,12 +98,6 @@ body{
   border: none;
 }
 
-@media only screen and (max-width: 2560px) {
-  .modalImage img{
-    max-height: 40vh;
-    max-width:  60vw;
-  }
-}
 @media only screen and (max-width: 1440px) {
   .modalImage img{
     max-height: 60vh;

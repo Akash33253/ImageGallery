@@ -132,7 +132,7 @@ export default function Main(props) {
                                         <span className='userName'>{elem.user.name}</span>
                                     </div>
                                     <div className='sideLike'>
-                                        <img src={heart} alt="" className='likebutton' />
+                                        <img src={heart} alt=""  className='likebutton' />
                                         <span className='likes'>{elem.likes}</span>
                                     </div>
                                 </div>
